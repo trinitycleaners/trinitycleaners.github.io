@@ -42,6 +42,13 @@ a:hover{
 	background: url(../images/trans_white.png)!important; 
 }
 
+.home-photo{
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+}
+
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
@@ -65,6 +72,9 @@ a:hover{
 	.panel-body-main p{
 		padding-left: 40px; 
 		padding-right: 40px; 
+	}
+	.home-photo{
+		display: none!important;
 	}
 }
 @media only screen and (min-width:1024px) {
