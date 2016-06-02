@@ -1,0 +1,89 @@
+/* Clearfix */
+
+.clearfix:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
+.clearfix { display: inline-block; }
+html[xmlns] .clearfix { display: block; }
+* html .clearfix { height: 1%; }
+
+/*------------------------------------*\
+    GLOBAL
+\*------------------------------------*/
+
+body{
+	background: url(../images/bg.jpg) no-repeat center center fixed;
+ 	-webkit-background-size: cover!important;
+ 	-moz-background-size: cover!important;
+ 	-o-background-size: cover!important;
+ 	background-size: cover!important;
+}
+
+a{
+	color: #00a4e4!important;
+}
+
+a:hover{
+	color: #222!important;
+}
+
+/*------------------------------------*\
+    SHELL
+\*------------------------------------*/
+
+.logo{
+	margin-bottom: 30px;
+	width: 200px;
+}
+
+.panel-main{
+	margin-top: 30px;
+	border: 10px solid #00a4e4!important;
+	text-align: center;
+	border-radius: 15px!important;
+	background: url(../images/trans_white.png)!important; 
+}
+
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+	.container{
+		width: 768px!important;
+	}
+	.logo{
+		width: 269px;
+	}
+	.panel-main{
+		margin-top: 50px;
+	}
+	.panel-body-main p{
+		padding-left: 40px; 
+		padding-right: 40px; 
+	}
+}
+@media only screen and (min-width:1024px) {
+	
+}
+@media only screen and (min-width:1140px) {
+	
+}
+@media only screen and (min-width:1200px) {
+	
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (min-width:1500px) {
+	
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
