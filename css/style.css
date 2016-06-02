@@ -64,6 +64,13 @@ hr{
 	line-height: 1.5em;
 }
 
+.free-quote{
+	font-size: 15px;
+	line-height: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
 
 /*------------------------------------*\
     RESPONSIVE
@@ -91,6 +98,9 @@ hr{
 	}
 	.home-photo{
 		display: none!important;
+	}
+	.free-quote{
+		font-size: 18px;
 	}
 }
 @media only screen and (min-width:1024px) {
