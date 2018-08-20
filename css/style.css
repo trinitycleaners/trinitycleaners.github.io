@@ -98,6 +98,14 @@ hr{
 	background: #eee !important;
 	border: 1px solid #fff !important;
 }
+.customer-reviews {
+	width: 80%;
+	margin: 0 auto;
+}
+.customer-reviews img{
+	width: 100px;
+	margin: 0 auto 20px;
+}
 
 /*------------------------------------*\
     SOCIAL
